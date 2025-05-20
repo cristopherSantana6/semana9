@@ -5,7 +5,7 @@
 lista_numeros= []
 
 for i in range(10):
-    numero=float(input("ingrese un numero: "))
+    numero=float(input(f"ingrese digito {i + 1}: "))
     lista_numeros.append(numero)
 print("lista de 10 numeros: ", lista_numeros)
 suma=0
